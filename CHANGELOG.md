@@ -7,6 +7,7 @@ All notable changes to this project are documented here. The format follows
 ## [3.3.3-beta.2] - 2026-08-22
 
 ### Added
+- A new Bluetooth on sleep feature switches Bluetooth off while the Mac sleeps, so a closed laptop stops connecting to headphones it should leave alone. Bluetooth that was already off before sleep stays off, and only what Vorssaint switched off is put back on wake.
 - The radial menu now includes a Now Playing media action with a floating track card and direct app access. Thanks to @ruvelro.
 - The radial menu editor now includes a broader built-in SF Symbol catalog with runtime availability filtering. Thanks to @ruvelro.
 - Sound Mixer now includes an option to hide inactive applications while keeping custom volume and output selections visible. Thanks to @ruvelro.
